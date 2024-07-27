@@ -1,17 +1,17 @@
 // LINKS 
 document.getElementById("cadena").addEventListener('click', () => {
-    window.location.href = "../links/links.html";
+    window.location.href = "./links/links.html";
 });
 
 // TIME
 document.querySelector('.reloj').addEventListener('click', () => {
-    window.location.href = "../reloj/reloj.html";
+    window.location.href = "./reloj/reloj.html";
 });
 
 
 // WEATHER
 document.querySelector('.weather').addEventListener('click', () => {
-    window.location.href = "../meteorología/meteorologia.html";
+    window.location.href = "./meteorología/meteorologia.html";
 });
 
 
@@ -95,6 +95,6 @@ const getCurrentLocationWeather = async () => {
 
   // PASSWORD
   document.getElementById("candado").addEventListener('click', () => {
-    window.location.href = "../contraseñas/contraseñas.html";
+    window.location.href = "./contraseñas/contraseñas.html";
 });
 
