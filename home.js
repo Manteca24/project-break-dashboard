@@ -61,7 +61,7 @@ const getCurrentLocationWeather = async () => {
         </div>
         <div class="iconandtemp">
           <img class="weather-icon" src="http:${icon}" alt="${text}">
-          <div class="celsius">${temp_c}<img src="../assets/icons/termometro.png" id="celsius" alt="grados"></div>
+          <div class="celsius">${temp_c}<img src="./assets/icons/termometro.png" id="celsius" alt="grados"></div>
         </div>
       </div>    
       <ul>
