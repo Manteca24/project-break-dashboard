@@ -393,40 +393,12 @@ span img {
 
 
 /*Media queries*/
-@media (max-width: 1200px) {
-    .mainInfo{
-            font-size: 10px;
-            flex-direction: column;
-    }
-    
-    .weather{
-        margin: 0px 100px 0px 100px;
-        max-width: 100%;
-    }
-        
-    .weather-icon{
-        width: 60px;
-    }
-    .celsius{
-        font-size: 20px;
-    }
-    #celsius{
-        width: 20px;
-    }
-    
-    .currentWeather h2{
-        font-weight: 700;
-        font-size: 20px;
-    }
-    
-    .currentWeather ul{
-        font-size: 10px;
-    }
-
+@media screen and (max-width: 1200px){
     .row-divs{
+        display: flex;
         flex-direction: column;
-        gap: 50px;
     }
-        }
-    
-    
+}
+
+@media screen and (max-width: 800px){
+}
